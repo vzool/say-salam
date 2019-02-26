@@ -1,0 +1,26 @@
+{
+    "name": "vzool/say-salam",
+    "description": "Package to just say Salam :D",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdelaziz Elrashed",
+            "email": "aeemh.sdn@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vzool\\SaySalam\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vzool\\SaySalam\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
